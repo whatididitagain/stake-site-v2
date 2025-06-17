@@ -1,8 +1,13 @@
-export default function HomePage() {
+export default function Home() {
   return (
-    <div>
-      <h2>Welcome to Stake Promo Site</h2>
-      <p>Get the latest news, predictions, and casino reviews with the Stake promo code: BONUS2025</p>
+    <div className="text-center space-y-6 mt-10">
+      <h1 className="text-3xl md:text-4xl font-bold">
+        Stake Promo Code: <span className="text-blue-500">BONUS2025</span>
+      </h1>
+      <p className="text-lg max-w-xl mx-auto">
+        Claim exclusive bonus on Stake. Compare top crypto casinos like Stake, BC.Game, and Roobet.
+        Daily updated news and expert betting predictions.
+      </p>
     </div>
   );
 }
